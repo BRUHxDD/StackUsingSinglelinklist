@@ -45,4 +45,18 @@ namespace StackUsingSingleLinkList
         Console.WriteLine("\n The poped element is: " + top.info);
         top = top.next; // make top point to the next node is sequence
     }
+
+    public void display()
+    {
+        node tmp;
+        if (empty())
+            Console.WriteLine("\nStack Empty");
+        else
+        {
+            for (tmp = top; tmp != null; tmp = tmp.next)
+            {
+                Console.WriteLine(tmp.info);
+            }
+        }
+    }
 }
