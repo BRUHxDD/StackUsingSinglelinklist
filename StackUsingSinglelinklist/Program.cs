@@ -40,4 +40,9 @@ namespace StackUsingSingleLinkList
         top = fresh;
         Console.WriteLine("\n" + element + "pushed");
     }
+    public void pop()
+    {
+        Console.WriteLine("\n The poped element is: " + top.info);
+        top = top.next; // make top point to the next node is sequence
+    }
 }
