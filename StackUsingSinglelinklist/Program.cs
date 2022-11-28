@@ -16,4 +16,12 @@ namespace StackUsingSingleLinkList
             next = n;
         }
     }
+    class Stack
+    {
+        node top;
+        public Stack()
+        {
+            top = null
+        }
+    }
 }
