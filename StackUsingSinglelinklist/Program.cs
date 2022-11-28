@@ -21,7 +21,14 @@ namespace StackUsingSingleLinkList
         node top;
         public Stack()
         {
-            top = null
+            top = null;
         }
+    }
+    bool empty()
+    {
+        if (Top == null)
+            return (true);
+        else
+            return (false);
     }
 }
